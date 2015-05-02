@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: a446d7e2d600f4a378dc09b0392b1b31
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: animationtry:ikHandle1
+    100002: animationtry:joint1
+    100004: animationtry:joint2
+    100006: animationtry:joint3
+    100008: animationtry:pCone1
+    100010: animationtry:pCylinder1
+    100012: //RootNode
+    100014: left_rig
+    100016: leg:animationtry:ikHandle1
+    100018: leg:animationtry:joint1
+    100020: leg:animationtry:joint2
+    100022: leg:animationtry:joint3
+    100024: leg:animationtry:pCylinder1
+    100026: right_rig
+    400000: animationtry:ikHandle1
+    400002: animationtry:joint1
+    400004: animationtry:joint2
+    400006: animationtry:joint3
+    400008: animationtry:pCone1
+    400010: animationtry:pCylinder1
+    400012: //RootNode
+    400014: left_rig
+    400016: leg:animationtry:ikHandle1
+    400018: leg:animationtry:joint1
+    400020: leg:animationtry:joint2
+    400022: leg:animationtry:joint3
+    400024: leg:animationtry:pCylinder1
+    400026: right_rig
+    2300000: animationtry:pCone1
+    3300000: animationtry:pCone1
+    4300000: animationtry:pCone1
+    4300002: animationtry:pCylinder1
+    4300004: leg:animationtry:pCylinder1
+    7400000: walk
+    7400002: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: animationtry:pCylinder1
+    13700002: leg:animationtry:pCylinder1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animationtry:pCone1
+        weight: 1
+      - path: animationtry:pCylinder1
+        weight: 1
+      - path: left_rig
+        weight: 1
+      - path: left_rig/animationtry:ikHandle1
+        weight: 1
+      - path: left_rig/animationtry:joint1
+        weight: 1
+      - path: left_rig/animationtry:joint1/animationtry:joint2
+        weight: 1
+      - path: left_rig/animationtry:joint1/animationtry:joint2/animationtry:joint3
+        weight: 1
+      - path: leg:animationtry:pCylinder1
+        weight: 1
+      - path: right_rig
+        weight: 1
+      - path: right_rig/leg:animationtry:ikHandle1
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1/leg:animationtry:joint2
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1/leg:animationtry:joint2/leg:animationtry:joint3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animationtry:pCone1
+        weight: 1
+      - path: animationtry:pCylinder1
+        weight: 1
+      - path: left_rig
+        weight: 1
+      - path: left_rig/animationtry:ikHandle1
+        weight: 1
+      - path: left_rig/animationtry:joint1
+        weight: 1
+      - path: left_rig/animationtry:joint1/animationtry:joint2
+        weight: 1
+      - path: left_rig/animationtry:joint1/animationtry:joint2/animationtry:joint3
+        weight: 1
+      - path: leg:animationtry:pCylinder1
+        weight: 1
+      - path: right_rig
+        weight: 1
+      - path: right_rig/leg:animationtry:ikHandle1
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1/leg:animationtry:joint2
+        weight: 1
+      - path: right_rig/leg:animationtry:joint1/leg:animationtry:joint2/leg:animationtry:joint3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
