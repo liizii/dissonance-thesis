@@ -1,0 +1,1460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"helper",
+				"helpers"
+			],
+			[
+				"State",
+				"StateInfo	StateInformation { get; }"
+			],
+			[
+				"_sta",
+				"_currStateInfo	StateInformation"
+			],
+			[
+				"Hide",
+				"HideInInspector	HideInInspector"
+			],
+			[
+				"Plane",
+				"PlaneOrientation	PlaneOrientation"
+			],
+			[
+				"IntVe",
+				"IntVector2D()	IntVector2D()"
+			],
+			[
+				"li",
+				"list	List<IntVector2D>"
+			],
+			[
+				"Right",
+				"RightArrow	KeyCode"
+			],
+			[
+				"In",
+				"IntVector2D()	IntVector2D()"
+			],
+			[
+				"_x",
+				"_xDim	int"
+			],
+			[
+				"_xy",
+				"_xyShadowRenderer	Renderer"
+			],
+			[
+				"Vect",
+				"Vector3()	Vector3()"
+			],
+			[
+				"L",
+				"AbsoluteLocations(IntVector location, Quaternion rotation)	List<IntVector>"
+			],
+			[
+				"in",
+				"initState	State"
+			],
+			[
+				"Get",
+				"GetValue(int index)	object"
+			],
+			[
+				"_wo",
+				"_worldEntities	List<WorldEntity>"
+			],
+			[
+				"GetC",
+				"GetComponentInChildren<T>()	T"
+			],
+			[
+				"Set",
+				"SetBool(int id, bool value)	void"
+			],
+			[
+				"Anim",
+				"Animator	Animator"
+			],
+			[
+				"extension",
+				"extensionLoc"
+			],
+			[
+				"_ro",
+				"_rotatable	Rotatable"
+			],
+			[
+				"Game",
+				"GameObject	GameObject"
+			],
+			[
+				"Rotat",
+				"RotationState	RotationState"
+			],
+			[
+				"_",
+				"_rotatable	Rotatable"
+			],
+			[
+				"_tr",
+				"_translator	Transform"
+			],
+			[
+				"_t",
+				"_translator	Transform"
+			],
+			[
+				"t",
+				"transform	Transform { get; }"
+			],
+			[
+				"Gam",
+				"GameObject()	GameObject()"
+			],
+			[
+				"Draw",
+				"DrawCube(Vector3 center, Vector3 size)	void"
+			],
+			[
+				"To",
+				"ToVector3()	Vector3"
+			],
+			[
+				"IntV",
+				"IntVector2D	IntVector2D"
+			],
+			[
+				"Trigg",
+				"Trigger2DState	Trigger2DState"
+			],
+			[
+				"Ac",
+				"ActiveHook	TriggerStateChangedDelegates"
+			],
+			[
+				"Lo",
+				"LoadLevel(int index)	void"
+			],
+			[
+				"a",
+				"Active	bool { get; }"
+			],
+			[
+				"Co",
+				"Count	int { get; }"
+			],
+			[
+				"Tri",
+				"Trigger2DState	Trigger2DState"
+			],
+			[
+				"con",
+				"contents	HashSet<WorldEntity2D>"
+			],
+			[
+				"A",
+				"Active	Trigger2DState"
+			],
+			[
+				"Worl",
+				"WorldEntity2D	WorldEntity2D"
+			],
+			[
+				"player",
+				"playerId	int"
+			],
+			[
+				"An",
+				"AnchorablePlayer	AnchorablePlayer"
+			],
+			[
+				"Pl",
+				"Player	AnchorablePlayer { get; set; }"
+			],
+			[
+				"Rea",
+				"ReadyToLaunch	bool { get; }"
+			],
+			[
+				"Pla",
+				"PlayerObject	GameObject { get; set; }"
+			],
+			[
+				"_pla",
+				"_playerIdsToInfos	Dictionary<int, AssigmentContainer>"
+			],
+			[
+				"_pl",
+				"_potentialPlayerInfos	PlayerInfo[]"
+			],
+			[
+				"Ass",
+				"AssigmentContainer()	AssigmentContainer()"
+			],
+			[
+				"_player",
+				"_playerIdsToInfos	Dictionary<int, PlayerInfo>"
+			],
+			[
+				"re",
+				"return	return"
+			],
+			[
+				"tr",
+				"true	true"
+			],
+			[
+				"_an",
+				"_anchorRenderer	AnchorRenderer"
+			],
+			[
+				"clo",
+				"closestHitIndex	int"
+			],
+			[
+				"ro",
+				"rotation	Quaternion { get; set; }"
+			],
+			[
+				"_ri",
+				"_tetheredToRigidbody	Rigidbody2D"
+			],
+			[
+				"connec",
+				"connectedBody	Rigidbody2D { get; set; }"
+			],
+			[
+				"an",
+				"connectedAnchor	Vector2 { get; set; }"
+			],
+			[
+				"Rigidbody",
+				"Rigidbody2D	Rigidbody2D"
+			],
+			[
+				"Rigi",
+				"Rigidbody2D	Rigidbody2D"
+			],
+			[
+				"_anchor",
+				"_anchorPosition	Vector2"
+			],
+			[
+				"v",
+				"void	void"
+			],
+			[
+				"_a",
+				"_audioSource"
+			],
+			[
+				"_th",
+				"_threadPointsOld"
+			],
+			[
+				"Ve",
+				"Vector2"
+			],
+			[
+				"th",
+				"_threadPointsOld"
+			],
+			[
+				"_p",
+				"_p1ThreadLength"
+			],
+			[
+				"Wo",
+				"WorldManager"
+			],
+			[
+				"til",
+				"_tileSize"
+			],
+			[
+				"x",
+				"_xDim"
+			],
+			[
+				"Vec",
+				"Vector2"
+			],
+			[
+				"Colo",
+				"color"
+			],
+			[
+				"Update",
+				"UpdateInfo"
+			],
+			[
+				"_vis",
+				"_visualOffset"
+			],
+			[
+				"_ava",
+				"_avatarControlIndex"
+			],
+			[
+				"Wor",
+				"WorldEntity"
+			],
+			[
+				"des",
+				"destPos"
+			],
+			[
+				"tim",
+				"timerDuration"
+			],
+			[
+				"Dp",
+				"DPadUp"
+			],
+			[
+				"Inpu",
+				"InputManager"
+			],
+			[
+				"Le",
+				"LeftStickX"
+			],
+			[
+				"Act",
+				"ActiveDevice"
+			],
+			[
+				"Inp",
+				"InputManager"
+			],
+			[
+				"fra",
+				"fraction"
+			],
+			[
+				"fr",
+				"frame"
+			],
+			[
+				"frame",
+				"frameDuration"
+			],
+			[
+				"Anima",
+				"AnimationState"
+			],
+			[
+				"Po",
+				"Position"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"mi",
+				"middleman-blog"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"Spri",
+				"SpriteRenderer	SpriteRenderer"
+			],
+			[
+				"Serial",
+				"SerializeField	SerializeField"
+			],
+			[
+				"Sp",
+				"Sprite	Sprite"
+			],
+			[
+				"un",
+				"insideUnitCircle	Vector2 insideUnitCircle"
+			],
+			[
+				"Wait",
+				"WaitForEndOfFrame	WaitForEndOfFrame"
+			],
+			[
+				"Ien",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"speed",
+				"interMenuNavigationSpeed	float interMenuNavigationSpeed"
+			],
+			[
+				"disa",
+				"isDisabled	bool isDisabled"
+			],
+			[
+				"D",
+				"Disable()	void Disable()"
+			],
+			[
+				"previou",
+				"previousIndex"
+			],
+			[
+				"pri",
+				"Prison	AlienAbility Prison"
+			],
+			[
+				"attat",
+				"attachmentPointIndex	attachmentPointIndex"
+			],
+			[
+				"sele",
+				"selectedMenuOption	MenuOption selectedMenuOption"
+			],
+			[
+				"C",
+				"color	Color color"
+			],
+			[
+				"radii",
+				"radiiSum	float radiiSum"
+			],
+			[
+				"Alterna",
+				"AlternatePhysicsBody"
+			],
+			[
+				"Trea",
+				"TreasureManager	TreasureManager"
+			],
+			[
+				"verlet",
+				"verletConstraints	List<IAlternatePhysicsConstraint> verletConstraints"
+			],
+			[
+				"DrawRay",
+				"DrawRay(	void DrawRay(Vector3 start, Vector3 dir, Color color, float duration)"
+			],
+			[
+				"Uni",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"loc",
+				"localScale	Vector3 localScale"
+			],
+			[
+				"lastM",
+				"lastMouseY	float lastMouseY"
+			],
+			[
+				"G",
+				"GetInterface()	T GetInterface()"
+			],
+			[
+				"c",
+				"collider	Collider2D collider"
+			],
+			[
+				"UI",
+				"UIMask	int UIMask"
+			],
+			[
+				"Layer",
+				"LayerMask	LayerMask"
+			],
+			[
+				"Unity",
+				"UnityConstants	UnityConstants"
+			],
+			[
+				"e",
+				"Evaluate(	float Evaluate(float time)"
+			],
+			[
+				"my",
+				"myTransform	Transform myTransform"
+			],
+			[
+				"fixe",
+				"fixedDeltaTime	float fixedDeltaTime"
+			],
+			[
+				"wit",
+				"wait	wait"
+			],
+			[
+				"Wai",
+				"WaitForFixedUpdate()	WaitForFixedUpdate()"
+			],
+			[
+				"IEnum",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"skel",
+				"skeletonAnimation	SkeletonAnimation skeletonAnimation"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "rein",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"C#",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gls",
+				"Set Syntax: GLSL"
+			],
+			[
+				"coin",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax un",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"nim",
+				"Set Syntax: Nimrod"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"line",
+				"Line Ending to all views: Unix"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jceipek/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Enums/StateInformation.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Enums/State.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Entities3D/XYZChar.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/PlayerController.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/WorldManager.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Entities3D/WorldEntity.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Machines/MovementMachine.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Character/renamer.py",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Entities3D/Rotatable.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Entities3D/ModelWorldEntityVis.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Entities3D/GenerateWorldEntityVis.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/MovementMachine.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/XYZChar.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Rotatable.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/StateInformation.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/WorldEntity2D.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/LevelTransitionMachine.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Trigger2D.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Char2D.cs",
+		"/Users/jceipek/Development/Dissonance/Trigger2D.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/Door2D.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/FacingDir.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/State.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/PlaneOrientation.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance.sublime-project",
+		"/Users/jceipek/Development/Dissonance/.gitignore",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/ReadScore.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/PerformanceMonitor.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/GameSpawner.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/AnchorRenderer.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/TetherMotor.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/AnchorablePlayer.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/ScoreCounter.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/GameManager.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/PlayerAssignmentSpawner.cs",
+		"/Users/jceipek/Library/Application Support/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/Users/jceipek/Development/Trust/openSubl",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/AnchorMotor.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/AnchorAdjustor.cs",
+		"/Users/jceipek/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/WeaponizableBrick.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/QuitOnESC.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/PlayerInitializer.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/VisualizeBox.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/VibrateOnHit.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/Trail.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/SwitchToGame.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/SoftResetEvent.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/ScoreEvent.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/PlayerController.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/NavigateLevel.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/Magnet.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/LaunchPlatformInitializer.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/KeyboardProfileTwo.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/KeyboardProfileOne.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/InControlLifetimeManager.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/HumSound.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/HardResetter.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/HardResetEvent.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/FreezeOnEnd.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/FollowCamUp.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/Events.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/DisconnectEvent.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/DeathZone.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/CircleRenderer.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/CameraShaker.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/BrittleBrick.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/Scripts/AIController.cs",
+		"/Users/jceipek/Development/Trust/Trust.sublime-project",
+		"/Users/jceipek/Library/Application Support/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/ICSharpCode.NRefactory.CSharp.xml",
+		"/Users/jceipek/Development/Trust/Trust/Assets/EnsureSingleMusicInstance.cs",
+		"/Users/jceipek/Development/Trust/Trust/Assets/3rdParty/InControl/Editor/ReorderableList/ReorderableListControl.cs",
+		"/Users/jceipek/Development/Trust/Trust/Trust.sln",
+		"/Users/jceipek/Library/Application Support/Sublime Text 3/Packages/completion/completion.sublime-settings",
+		"/Users/jceipek/go/src/github.com/quarnster/completion/editor/sublime/sublime.go",
+		"/Users/jceipek/Dropbox/IMGD sem2/MEML-todos",
+		"/Users/jceipek/Dropbox/IMGD sem2/S-02:18:2015",
+		"/Users/jceipek/Development/Hidden/Assets/DebugKeyboardProfilePlayerOne.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/GeneratePlane.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Prefabs/Characters_P.prefab",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Materials/Shadow.mat",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Shaders.meta",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts.meta",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/ProjectionMath.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Prefabs.meta",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Char2D.cs",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Prefabs/Main Camera.prefab",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Shaders/VisualizationShader.shader.meta",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Shaders/VisualizationShader.shader",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/WorldEntity.cs.meta",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Assets/Scripts/WorldEntity.cs",
+		"/Users/jceipek/Development/ADP-CTRL/Final/adp-control.js",
+		"/Users/jceipek/Dropbox/IMGD sem2/W-02:13:2015",
+		"/Users/jceipek/Development/PlusCommunity/ra.js",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/dc/dcb391b56aa06478bbfbd955b3fe499f",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/66/6603bfb28347d499f803af2f26987172",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/59/59badf13da99d4672ab933b1a5a54874",
+		"/Users/jceipek/Development/Dissonance/Dissonance/Library/metadata/36/364ed32d39fee48a49aab8cc17f15ef4",
+		"/Users/jceipek/Development/Dissonance/Dissonance/ProjectSettings/Physics2DSettings.asset",
+		"/Users/jceipek/Development/MadMansionU5/MadMansion/Assets/Scripts/Events/StartGameEvent.cs",
+		"/Users/jceipek/Development/MadMansionU5/MadMansion/Assets/Standard Assets.meta",
+		"/Users/jceipek/Development/MadMansionU5/MadMansion/Assets/Scripts/Static.meta",
+		"/Users/jceipek/Development/MadMansionU5/MadMansion/Assets/Standard Assets/Image Effects (Pro Only)/SepiaToneEffect.cs",
+		"/Users/jceipek/Development/MadMansionU5/MadMansion/Assets/Scenes.meta",
+		"/Users/jceipek/Dropbox/IMGD sem2/SCA Scholarships",
+		"/Users/jceipek/Development/Group Projects/Simul/gameModelPlay2.py",
+		"/Users/jceipek/Desktop/CTIN-492 2015 New Toy Julian Ceipek/readme.txt",
+		"/Users/jceipek/Development/VILA/package.json",
+		"/Users/jceipek/Development/VILA/Procfile",
+		"/Users/jceipek/Development/VILA/webpack.config.js",
+		"/Users/jceipek/Development/thoughts/thoughts/source/articles/2014-11-02-games-that-invite-change.html.markdown",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Materials/Plant.mat",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl/Editor/ProfileListGenerator.cs",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Prefabs.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl/Library/Unity/DeviceProfiles/GenericAndroidProfile.cs.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl/Library/Unity/DeviceProfiles/GenericAndroidProfile.cs",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Scripts/Collision.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Standard Assets/Image Effects (Pro Only)/PostEffectsHelper.js",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Materials.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl/README.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/RawModels.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Standard Assets/Image Effects (Pro Only)/Fisheye.js",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/Scenes.meta",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl/Library/Unity/DeviceProfiles/MogaProOuyaProfile.cs",
+		"/Users/jceipek/Development/Plant-Game-Project/Plant/Assets/InControl.meta"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"*.cs",
+			"",
+			"/Users/jceipek/Development/nimrod-exploration/sdl2",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mark.render",
+			".to_html",
+			"Markdown",
+			"prices",
+			"small",
+			"h1",
+			"XYPositions",
+			"XYZChar.g.ZYPositions",
+			"XYZChar.g.XYPositions",
+			"XYPositions",
+			"bool",
+			"CanExistOn",
+			"blocked",
+			"Desired",
+			"}\n",
+			"DesiredP",
+			"_avatars[_selectedAvatarIndex]",
+			"Input.GetMouseButtonDown(0)",
+			"_xyShadowRenderer",
+			"material",
+			"UpdatePlanes",
+			"_ShadowProjection",
+			"transform",
+			"transform.",
+			"all",
+			"IsVisible",
+			"animationStateIds",
+			"false",
+			"_render",
+			"State",
+			"StateInformation",
+			"TileSi",
+			"false",
+			"i",
+			"j",
+			"true",
+			"Cache(",
+			"CastsShadowsAt3D",
+			"shadows",
+			"_currStateInfo",
+			"isWalkingID",
+			"epsilon",
+			"layer",
+			"tag",
+			"AnimateAtAnchor",
+			"_transform",
+			"_translator",
+			"translatorObject",
+			"_transform",
+			"_translator",
+			"_worldEntity",
+			"_explicitRelativeRotationAnchors",
+			"CanRotateAroundAnchor",
+			"Location",
+			"_localAnchor",
+			"Anchor",
+			"RotateCounterClockwise",
+			"OnDisable",
+			"InitMoving",
+			"Active",
+			"RotationHook",
+			"RotationBeganDelegates",
+			"RemoveEntityFrom2DLocation",
+			"State",
+			" + visualOffset",
+			"StateInformation",
+			"RotationState",
+			"State",
+			"AddEntityTo2DLocations",
+			"Set2DLocationsToEntity",
+			"SetContents2DAt",
+			"Set2DLocationsToEntity",
+			"SetContents2D",
+			"_xyWorldEntities",
+			"Contents2DAt",
+			"List<WorldEntity2D>",
+			"List",
+			"List<WorldEntity2D>",
+			"List",
+			"List<WorldEntity2D>",
+			"HashSet<WorldEntity2D>",
+			"List<WorldEntity2D>",
+			"_xyWorldEntities",
+			"WorldEntity2D",
+			"Trust",
+			"ScoreEvent",
+			"Index",
+			"_score",
+			"_playerIndex",
+			"index",
+			"Log",
+			"_validIds[i]",
+			"validIds",
+			"_playerIdsToPlayers",
+			"materials[i]",
+			"index",
+			"_players",
+			"Initiali",
+			"playerIdsToPlayerInfos",
+			"GameMan",
+			"heightReached",
+			"AssigmentContainer",
+			"_potentialPlayerInfos",
+			"persistentPlayerInfo",
+			"_heightReached",
+			"_playersToDevices",
+			"InputManager.ActiveDevice",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"Device",
+			"device",
+			"NextAvailableSlot",
+			"InitPlayers",
+			"InitDevices",
+			"InitPlayer",
+			"InitPlayers",
+			"_anchorMotor",
+			"_thickness"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Dissonance.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"platform",
+				"Dissonance/Assets/PlatformAnimation.cs"
+			],
+			[
+				"vector",
+				"Dissonance/Assets/Scripts/DataStructures/IntVectors.cs"
+			],
+			[
+				"worldentity2d",
+				"Dissonance/Assets/Scripts/Entities2D/WorldEntity2D.cs"
+			],
+			[
+				"shader",
+				"Dissonance/Assets/Shaders/ShadowLayers.shader"
+			],
+			[
+				"playercon",
+				"Dissonance/Assets/Scripts/PlayerController.cs"
+			],
+			[
+				"worlden",
+				"Dissonance/Assets/Scripts/Entities3D/WorldEntity.cs"
+			],
+			[
+				"rotat",
+				"Dissonance/Assets/Scripts/Entities3D/Rotatable.cs"
+			],
+			[
+				"state",
+				"Dissonance/Assets/Scripts/Enums/State.cs"
+			],
+			[
+				"stateinformation",
+				"Dissonance/Assets/Scripts/Enums/StateInformation.cs"
+			],
+			[
+				"worl",
+				"Dissonance/Assets/Scripts/WorldManager.cs"
+			],
+			[
+				"modelwo",
+				"Dissonance/Assets/Scripts/Entities3D/ModelWorldEntityVis.cs"
+			],
+			[
+				"rotatab",
+				"Dissonance/Assets/Scripts/Entities3D/Rotatable.cs"
+			],
+			[
+				"cam",
+				"Dissonance/Assets/Scripts/ShadowCam.cs"
+			],
+			[
+				"xyz",
+				"Dissonance/Assets/Scripts/Entities3D/XYZChar.cs"
+			],
+			[
+				"2d",
+				"Dissonance/Assets/Scripts/Entities2D/Char2D.cs"
+			],
+			[
+				"worldentity",
+				"Dissonance/Assets/Scripts/Entities2D/WorldEntity2D.cs"
+			],
+			[
+				"playercontroller.cs",
+				"Dissonance/Assets/Scripts/PlayerController.cs"
+			],
+			[
+				"vis",
+				"Dissonance/Assets/Scripts/Entities3D/GenerateWorldEntityVis.cs"
+			],
+			[
+				"movemen",
+				"Dissonance/Assets/Scripts/Machines/MovementMachine.cs"
+			],
+			[
+				"rotata",
+				"Dissonance/Assets/Scripts/Entities3D/Rotatable.cs"
+			],
+			[
+				"worlde",
+				"Dissonance/Assets/Scripts/Entities3D/WorldEntity.cs"
+			],
+			[
+				"world",
+				"Dissonance/Assets/Scripts/WorldManager.cs"
+			],
+			[
+				"x",
+				"Dissonance/Assets/Scripts/Entities3D/XYZChar.cs"
+			],
+			[
+				"tr",
+				"Dissonance/Assets/Scripts/Trigger2D.cs"
+			],
+			[
+				"movem",
+				"Dissonance/Assets/Scripts/MovementMachine.cs"
+			],
+			[
+				"ro",
+				"Dissonance/Assets/Scripts/Rotatable.cs"
+			],
+			[
+				"trigger",
+				"Dissonance/Assets/Scripts/Trigger2D.cs"
+			],
+			[
+				"char2d",
+				"Dissonance/Assets/Scripts/Char2D.cs"
+			],
+			[
+				"char",
+				"Dissonance/Assets/Scripts/Char2D.cs"
+			],
+			[
+				"planeorientation",
+				"Dissonance/Assets/Scripts/PlaneOrientation.cs"
+			],
+			[
+				"wor",
+				"Dissonance/Assets/Scripts/WorldManager.cs"
+			],
+			[
+				"score",
+				"Trust/Trust/Assets/Scripts/ScoreEvent.cs"
+			],
+			[
+				"reads",
+				"Trust/Trust/Assets/Scripts/ReadScore.cs"
+			],
+			[
+				"gamem",
+				"Trust/Trust/Assets/Scripts/GameManager.cs"
+			],
+			[
+				"anch",
+				"Trust/Trust/Assets/Scripts/AnchorablePlayer.cs"
+			],
+			[
+				"death",
+				"Trust/Trust/Assets/Scripts/DeathZone.cs"
+			],
+			[
+				"playerin",
+				"Trust/Trust/Assets/Scripts/PlayerInitializer.cs"
+			],
+			[
+				"disconnectevent",
+				"Trust/Trust/Assets/Scripts/DisconnectEvent.cs"
+			],
+			[
+				"spawn",
+				"Trust/Trust/Assets/Scripts/GameSpawner.cs"
+			],
+			[
+				"assignmen",
+				"Trust/Trust/Assets/Scripts/PlayerAssignmentSpawner.cs"
+			],
+			[
+				"game",
+				"Trust/Trust/Assets/Scripts/GameManager.cs"
+			],
+			[
+				"assi",
+				"Trust/Trust/Assets/Scripts/PlayerAssignmentSpawner.cs"
+			],
+			[
+				"anchorm",
+				"Trust/Trust/Assets/Scripts/AnchorMotor.cs"
+			],
+			[
+				"anchorad",
+				"Trust/Trust/Assets/Scripts/AnchorAdjustor.cs"
+			],
+			[
+				"confi",
+				"OmniSharp/PrebuiltOmniSharpServer/config.json"
+			],
+			[
+				"moto",
+				"Trust/Trust/Assets/Scripts/AnchorMotor.cs"
+			],
+			[
+				"plane",
+				"Scripts/Plane.cs"
+			],
+			[
+				"generat",
+				"Scripts/GeneratePlane.cs"
+			],
+			[
+				"project",
+				"Scripts/ProjectShadow.cs"
+			],
+			[
+				"shadowre",
+				"Scripts/ShadowRenderer.cs"
+			],
+			[
+				"mach",
+				"Scripts/MovementMachine.cs"
+			],
+			[
+				"rota",
+				"Scripts/Rotatable.cs"
+			],
+			[
+				"worldma",
+				"Scripts/WorldManager.cs"
+			],
+			[
+				"xy",
+				"Scripts/XYZChar.cs"
+			],
+			[
+				"startc",
+				"MadMansion/Assets/Scripts/Events/StartCharacterSelectionEvent.cs"
+			],
+			[
+				"wat",
+				"WaterGenerator.cs"
+			],
+			[
+				"plant",
+				"Scripts/PlantRenderer.cs"
+			],
+			[
+				"coll",
+				"Scripts/CollisionManager.cs"
+			],
+			[
+				"math",
+				"Scripts/MathUtils.cs"
+			],
+			[
+				"rect",
+				"PhysicsRectangle.cs"
+			],
+			[
+				"follo",
+				"Scripts/FollowPointOnWorld.cs"
+			],
+			[
+				"simu",
+				"Scripts/SimulatePlant.cs"
+			],
+			[
+				"coor",
+				"Extensions/ColorExtensions.cs"
+			],
+			[
+				"cycl",
+				"CycleTime.cs"
+			],
+			[
+				"was",
+				"Assets/Scripts/Input/Profiles/WASDProfile.cs"
+			],
+			[
+				"arrows",
+				"Assets/Scripts/Input/Profiles/ArrowsProfile.cs"
+			],
+			[
+				"demopirates",
+				"Assets/Scripts/DemoPiratePartySpawner.cs"
+			],
+			[
+				"playerpi",
+				"Assets/Scripts/PlayerPirateController.cs"
+			],
+			[
+				"menum",
+				"Assets/Scripts/Menu/MenuManager.cs"
+			],
+			[
+				"star",
+				"Assets/Scripts/Menu/Actions/StartAction.cs"
+			],
+			[
+				"inputdevice",
+				"Assets/Scripts/3rdParty/InControl/Library/Device/InputDevice.cs"
+			],
+			[
+				"unityin",
+				"Assets/Scripts/3rdParty/InControl/Library/Unity/UnityInputDeviceProfile.cs"
+			],
+			[
+				"mouse",
+				"Assets/Scripts/Input/MouseProfile.cs"
+			],
+			[
+				"inputdev",
+				"Assets/Scripts/3rdParty/InControl/Library/Device/InputDevice.cs"
+			],
+			[
+				"input",
+				"Assets/Scripts/3rdParty/InControl/Library/InputManager.cs"
+			],
+			[
+				"mapping",
+				"Assets/Scripts/Input/Mapping.cs"
+			],
+			[
+				"physi",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsSimulator.cs"
+			],
+			[
+				"treas",
+				"Assets/Scripts/TreasureContainer.cs"
+			],
+			[
+				"rope",
+				"Assets/Scripts/RopeRenderer.cs"
+			],
+			[
+				"circle",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsStayInCircleConstraint.cs"
+			],
+			[
+				"kee",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsKeepApartConstraint.cs"
+			],
+			[
+				"altern",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsSimulator.cs"
+			],
+			[
+				"radi",
+				"Assets/Scripts/Menu/Actions/RadioAction.cs"
+			],
+			[
+				"menuop",
+				"Assets/Scripts/Menu/MenuOption.cs"
+			],
+			[
+				"start",
+				"Assets/Scripts/Menu/Actions/StartAction.cs"
+			],
+			[
+				"base",
+				"Assets/Scripts/Menu/Actions/BaseMenuAction.cs"
+			],
+			[
+				"iha",
+				"Assets/Scripts/Interfaces/IHaveMenuAction.cs"
+			],
+			[
+				"tran",
+				"Assets/Scripts/Library/Extensions/TransformExtensions.cs"
+			],
+			[
+				"men",
+				"Assets/Scripts/Menu/MenuManager.cs"
+			],
+			[
+				"alternatephy",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsConstraint.cs"
+			],
+			[
+				"alterna",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsSimulator.cs"
+			],
+			[
+				"ial",
+				"Assets/Scripts/Library/AlternatePhysics/IAlternatePhysicsConstraint.cs"
+			],
+			[
+				"constr",
+				"Assets/Scripts/Library/AlternatePhysics/AlternatePhysicsConstraint.cs"
+			],
+			[
+				"trea",
+				"Assets/Scripts/Singletons/TreasureManager.cs"
+			],
+			[
+				"time",
+				"Assets/Scripts/3rdParty/UnityToolbag/TimeScaleIndependentUpdate/TimeScaleIndependentUpdate.cs"
+			],
+			[
+				"exit",
+				"Assets/Scripts/MenuActions/ExitAction.cs"
+			],
+			[
+				"menu",
+				"Assets/Scripts/Interfaces/IHaveMenuAction.cs"
+			],
+			[
+				"unityc",
+				"Assets/Scripts/Library/UnityConstants.cs"
+			],
+			[
+				"ican",
+				"Assets/Scripts/Interfaces/ICanBeCollected.cs"
+			],
+			[
+				"player",
+				"Assets/Scripts/PlayerPirateController.cs"
+			],
+			[
+				"icancon",
+				"Assets/Scripts/Interfaces/ICanControlMovement.cs"
+			],
+			[
+				"target",
+				"Assets/Scripts/TargetUsingReticule.cs"
+			],
+			[
+				"bug",
+				"Assets/Scripts/BugController.cs"
+			],
+			[
+				"mapp",
+				"Assets/Scripts/Mapping.cs"
+			],
+			[
+				"c",
+				"Capsule:"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -30,9 +30,9 @@ public class blockPlaceChild : MonoBehaviour {
 				child.GetComponent<toShadows>().myShadows[i].gameObject.SetActive(false);
 		}
 
-		if(Character3D.touch3dObj){
+		if(Character3D._touch3dObj){
 			foreach(GameObject k in controller){
-				if(Character3D.touch3dObj.gameObject==k){
+				if(Character3D._touch3dObj.gameObject==k){
 					
 			foreach(GameObject obj in linedots)
 			foreach(Transform child in obj.transform){
@@ -45,22 +45,22 @@ public class blockPlaceChild : MonoBehaviour {
 
 		}
 
-		if(Character3D.hit3dObj){
+		if(Character3D._hit3dObj){
 			foreach(GameObject k in controller){
 
-				if(Character3D.hit3dObj.gameObject==k && Character3D.pRotDirection!=0)
-			if(Character3D.pRotDirection>0 && moveAmount>=limitUp){
+				if(Character3D._hit3dObj.gameObject==k && Character3D._pRotDirection!=0)
+			if(Character3D._pRotDirection>0 && moveAmount>=limitUp){
 				movable=false;
-			}else if(Character3D.pRotDirection<0 && moveAmount<=limitDown){
+			}else if(Character3D._pRotDirection<0 && moveAmount<=limitDown){
 				movable=false;
 			}else{
 				movable=true;
 			}
 
 			if(movable){
-					moveAmount+=Character3D.pRotDirection*growSpeed[0];
+					moveAmount+=Character3D._pRotDirection*growSpeed[0];
 			for (int i = 0; i <  growChildren.Length; i++) {
-				growChildren[i].position+= new Vector3(Character3D.pRotDirection*growSpeed[i]*dirX, Character3D.pRotDirection*growSpeed[i]*dirY,Character3D.pRotDirection*growSpeed[i]*dirZ)/2;
+				growChildren[i].position+= new Vector3(Character3D._pRotDirection*growSpeed[i]*dirX, Character3D._pRotDirection*growSpeed[i]*dirY,Character3D._pRotDirection*growSpeed[i]*dirZ)/2;
 			}
 					}
 

@@ -50,7 +50,7 @@ public class objRotBlock : MonoBehaviour {
 		List<Vector3> nextPos=objBottomOPos;
 		Vector3 nextDist=new Vector3(0,0,0);
 
-		if(Character3D.touch3dObj && Character3D.touch3dObj==this.gameObject.transform){
+		if(Character3D._touch3dObj && Character3D._touch3dObj==this.gameObject.transform){
 //******************when it is rotating
 
 //******************when it becomes 3d character
@@ -89,7 +89,7 @@ public class objRotBlock : MonoBehaviour {
 
 
 
-		if(Character3D.hit3dObj && Character3D.hit3dObj==this.gameObject.transform && Character3D.pRotDirection!=0){
+		if(Character3D._hit3dObj && Character3D._hit3dObj==this.gameObject.transform && Character3D._pRotDirection!=0){
 			objMoveL(objBottom,objBottomSplitPos,new Vector3(0,0,0));
 			moveObj=objZY;
 			nextPos=objZYOPos;

@@ -18,10 +18,10 @@ public class blockGrowChild : MonoBehaviour {
 	}
 
 	void Update () {
-		if(Character3D.hit3dObj && Character3D.hit3dObj.GetComponent<toParent>().myParent.gameObject==this.gameObject && this.transform.parent==rotParent.transform){
-			if(Character3D.pRotDirection>0 && moveAmount>limitUp){
+		if(Character3D._hit3dObj && Character3D._hit3dObj.GetComponent<toParent>().myParent.gameObject==this.gameObject && this.transform.parent==rotParent.transform){
+			if(Character3D._pRotDirection>0 && moveAmount>limitUp){
 				movable=false;
-			}else if(Character3D.pRotDirection<0 && moveAmount<limitDown){
+			}else if(Character3D._pRotDirection<0 && moveAmount<limitDown){
 				movable=false;
 			}else{
 				movable=true;
@@ -29,11 +29,11 @@ public class blockGrowChild : MonoBehaviour {
 
 			if(movable)
 			for (int i = 0; i <  growChildren.Length; i++) {
-				growChildren[i].localScale+= new Vector3(0, Character3D.pRotDirection*growSpeed[i],0);
-				if(Character3D.hit3dObj.gameObject==growChildren[i].GetComponentInChildren<toParent>().transform.gameObject){
-					PlayerInputController.platformVelXY=new Vector3(0, Character3D.pRotDirection*(growSpeed[i]+Character3D.pRotDirection*offset),0);
-					PlayerInputController.platformVelZY=new Vector3(0, Character3D.pRotDirection*(growSpeed[i]+Character3D.pRotDirection*offset),0);
-					moveAmount+=Character3D.pRotDirection*growSpeed[i];
+				growChildren[i].localScale+= new Vector3(0, Character3D._pRotDirection*growSpeed[i],0);
+				if(Character3D._hit3dObj.gameObject==growChildren[i].GetComponentInChildren<toParent>().transform.gameObject){
+					PlayerInputController.platformVelXY=new Vector3(0, Character3D._pRotDirection*(growSpeed[i]+Character3D._pRotDirection*offset),0);
+					PlayerInputController.platformVelZY=new Vector3(0, Character3D._pRotDirection*(growSpeed[i]+Character3D._pRotDirection*offset),0);
+					moveAmount+=Character3D._pRotDirection*growSpeed[i];
 				}
 			}
 		}

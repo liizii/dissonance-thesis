@@ -23,9 +23,9 @@ public class objBalls : MonoBehaviour {
 
 	void Update(){
 
-		if(Character3D.touch3dObj && Character3D.touch3dObj==controller){
+		if(Character3D._touch3dObj && Character3D._touch3dObj==controller){
 			changeColor(new Color(1,1,1,0.4f),4);
-			if(Character3D.pRotDirection==0){
+			if(Character3D._pRotDirection==0){
 				nextS=scaleB+new Vector3(0.15f,0.15f,0.15f);
 			}else{
 				nextS=scaleB+new Vector3(0.5f,0.5f,0.5f);

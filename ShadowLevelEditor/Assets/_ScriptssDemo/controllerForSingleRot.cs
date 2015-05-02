@@ -37,7 +37,7 @@ public class controllerForSingleRot : MonoBehaviour {
 //				}
 //		}
 
-		if(Character3D.touch3dObj && Character3D.touch3dObj.gameObject == this.gameObject){
+		if(Character3D._touch3dObj && Character3D._touch3dObj.gameObject == this.gameObject){
 			if(GetComponent<toParent>().rotOnce != 0 && moveChild >= 0 && moveChild <= forObjs.Count){
 				moveChild = moveChild + GetComponent<toParent>().rotOnce;
 				if(moveChild<0)

@@ -29,7 +29,7 @@ public class objRotAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Character3D.touch3dObj && Character3D.touch3dObj==this.gameObject.transform){
+		if(Character3D._touch3dObj && Character3D._touch3dObj==this.gameObject.transform){
 			for(int i=0;i<controlledAnimatedObj.Count;i++){
 				controlledAnimatedObj[i].transform.position=new Vector3(objIControl[i].transform.position.x,planePos.position.y-0.2f,objIControl[i].transform.position.z);
 				Vector3 inextsc=controlledAnimatedObj[i].transform.localScale;

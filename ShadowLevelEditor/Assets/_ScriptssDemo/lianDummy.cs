@@ -34,9 +34,9 @@ public class lianDummy : MonoBehaviour {
 	void Update () {
 
 		if(thisIndex==0){
-			splitedPos=new Vector3(lianSelf.targetPos.x,lianSelf.targetPos.y,-7);
+			splitedPos=new Vector3(lianSelf._targetPos.x,lianSelf._targetPos.y,-7);
 		}else if(thisIndex==1){
-			splitedPos=new Vector3(-7,lianSelf.targetPos.y,lianSelf.targetPos.z);
+			splitedPos=new Vector3(-7,lianSelf._targetPos.y,lianSelf._targetPos.z);
 		}
 
 		if(lianSelf.DoesExist){
@@ -111,11 +111,11 @@ public class lianDummy : MonoBehaviour {
 		if (lianSelf.DoesExist)
 		{
 			startPos = splitedPos;
-			endPos = lianSelf.targetPos;
+			endPos = lianSelf._targetPos;
 		}
 		else
 		{
-			startPos = lianSelf.targetPos;
+			startPos = lianSelf._targetPos;
 			endPos = splitedPos;
 		}
 

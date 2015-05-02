@@ -4,10 +4,14 @@ using System.Collections;
 public class toParent : MonoBehaviour {
 
 	public Transform myParent;
+	[HideInInspector]
 	public int beTouched=2;
 	Color oColor;
+	[HideInInspector]
 	public bool rotatable=false;
+	[HideInInspector]
 	public Vector3 myVel;
+	[HideInInspector]
 	public float rotOnce=0;
 
 	void Start(){

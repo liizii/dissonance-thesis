@@ -23,12 +23,12 @@ public class playerDummy : MonoBehaviour {
 			icolor.a=nextAlpha;
 			meshes[i].GetComponent<Renderer>().material.color=Color.Lerp(meshes[i].GetComponent<Renderer>().material.color,icolor,Time.deltaTime*9);
 		}
-		if(Character3D.touch3dObj && !pxyxDir.parent.GetComponent<Character3D>().DoesExist){
+		if(Character3D._touch3dObj && !pxyxDir.parent.GetComponent<Character3D>().DoesExist){
 			nextAlpha=0.5f;
 			if(myStatus==0){
-				transform.position=new Vector3(pXY.transform.position.x,pXY.transform.position.y,Character3D.touch3dObj.transform.position.z);
+				transform.position=new Vector3(pXY.transform.position.x,pXY.transform.position.y,Character3D._touch3dObj.transform.position.z);
 			}else if(myStatus==1){
-				transform.position=new Vector3(Character3D.touch3dObj.transform.position.x,pZY.transform.position.y,-pZY.transform.position.x);
+				transform.position=new Vector3(Character3D._touch3dObj.transform.position.x,pZY.transform.position.y,-pZY.transform.position.x);
 			}
 		}else{
 			nextAlpha=0;

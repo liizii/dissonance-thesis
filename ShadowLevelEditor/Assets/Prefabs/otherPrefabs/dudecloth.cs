@@ -11,7 +11,7 @@ public class dudecloth : MonoBehaviour {
 	}
 
 	void Update () {
-		if(Character3D.touch3dObj && Character3D.touch3dObj.GetComponent<toParent>() && Character3D.touch3dObj.GetComponent<toParent>().rotatable ){
+		if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<toParent>() && Character3D._touch3dObj.GetComponent<toParent>().rotatable ){
 			Anim.SetBool("shouldStayUp",true);
 		}else if(Input.GetKey(KeyCode.UpArrow)){
 			if(me==PlayerInputController.playerStatus){

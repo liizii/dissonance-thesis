@@ -18,9 +18,9 @@ public class objBallRotation : MonoBehaviour {
 	
 
 	void Update () {
-		if(Character3D.touch3dObj && Character3D.touch3dObj==controller){
+		if(Character3D._touch3dObj && Character3D._touch3dObj==controller){
 			changeColor(new Color(1,1,1,0.35f),7);
-			if(Character3D.pRotDirection==0){
+			if(Character3D._pRotDirection==0){
 				nextS=scaleB;
 			}else{
 				nextS=scaleB+new Vector3(0.6f,0.6f,0.6f);
