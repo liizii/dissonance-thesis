@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 0370ca45554824e75921d7740a78749e
+timeCreated: 1430620414
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: idle
@@ -75,6 +77,7 @@ TextureImporter:
     21300140: fall_3
     21300142: fall_4
     21300144: trigger-green
+    21300146: idle_active
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -93,6 +96,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 4096
@@ -103,6 +109,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -846,5 +853,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_active
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5406,6 +5406,14 @@ Prefab:
       propertyPath: _rotationSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9591390, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1d93ac56a99c34485be331d84f428737, type: 2}
+    - target: {fileID: 9574784, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1d93ac56a99c34485be331d84f428737, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
   m_IsPrefabParent: 0

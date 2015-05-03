@@ -183,8 +183,12 @@ public class PlayerInputController : MonoBehaviour {
 			normalizedHorizontalSpeed = 0;
 
 			if( _controller.isGrounded ){
-				player.animator.Play( Animator.StringToHash( "Idle" ) );
-			
+				if (_characterIndexUnderControl == index) {
+					player.animator.Play( Animator.StringToHash( "Idle_Active" ) );
+				} else {
+					player.animator.Play( Animator.StringToHash( "Idle" ) );
+				}
+
 			}
 		}
 
