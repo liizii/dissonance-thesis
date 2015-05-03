@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class blockWeightSensor : MonoBehaviour {
@@ -28,12 +28,12 @@ public class blockWeightSensor : MonoBehaviour {
 	}
 	
 	void Update () {
-		if(GetComponent<toParent>().beTouched!=2){
+		if(GetComponent<BlockInformation>().beTouched!=2){
 			withPlayer=true;
 			PlayerInputController.jumpOK=2;
 		if(dir!=0){
-			if(GetComponent<toParent>().beTouched==PlayerInputController.playerStatus || GetComponent<toParent>().beTouched==10){
-					PlayerInputController.jumpOK=GetComponent<toParent>().beTouched;
+			if(GetComponent<BlockInformation>().beTouched==PlayerInputController.playerStatus || GetComponent<BlockInformation>().beTouched==10){
+					PlayerInputController.jumpOK=GetComponent<BlockInformation>().beTouched;
 			}
 		}
 		}else{
@@ -49,7 +49,7 @@ public class blockWeightSensor : MonoBehaviour {
 		objVel=deltaPos*dir*speed;
 		transform.parent.position=transform.parent.position+objVel;
 
-		if(GetComponent<toParent>().beTouched==2){
+		if(GetComponent<BlockInformation>().beTouched==2){
 			bt.transform.parent=btoParent;
 			bt.transform.position=btoPos;
 			if(nextPos!=oPos){
@@ -59,13 +59,13 @@ public class blockWeightSensor : MonoBehaviour {
 			}
 		}else{
 			//GetComponent<toParent>().myVel=objVel;
-			if(GetComponent<toParent>().beTouched==0 || GetComponent<toParent>().beTouched==10){
+			if(GetComponent<BlockInformation>().beTouched==0 || GetComponent<BlockInformation>().beTouched==10){
 				PlayerInputController.platformVelXY=objVel;
 			}
-			if(GetComponent<toParent>().beTouched==1 || GetComponent<toParent>().beTouched==10){
+			if(GetComponent<BlockInformation>().beTouched==1 || GetComponent<BlockInformation>().beTouched==10){
 				PlayerInputController.platformVelZY=objVel;
 			}
-			if(GetComponent<toParent>().beTouched==10){
+			if(GetComponent<BlockInformation>().beTouched==10){
 				if(transform.position.y-endPos.y<0)
 				bt.transform.parent=this.transform;
 				if(nextPos!=endPos2){

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class objBallRotation : MonoBehaviour {
@@ -29,7 +29,7 @@ public class objBallRotation : MonoBehaviour {
 			changeColor(colorA,7);
 			nextS=scaleA;
 			if(center)
-			if(controller.GetComponent<toParent>().beTouched==2){
+			if(controller.GetComponent<BlockInformation>().beTouched==2){
 				changeScale(center.gameObject,new Vector3(0.35f,0.35f,0.35f),7);
 			}else{
 				changeScale(center.gameObject,new Vector3(0.65f,0.65f,0.65f),7);

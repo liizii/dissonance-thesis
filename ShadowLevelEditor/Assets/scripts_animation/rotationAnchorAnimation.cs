@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
 public class rotationAnchorAnimation : MonoBehaviour { 
-		toParent _toparent;
+		BlockInformation _toparent;
 		public List<Transform> anchorObj = new List<Transform>();
 		List<Vector3> anchorObjOPos = new List<Vector3>();
 		List<Vector3> anchorObjOScale = new List<Vector3>();
@@ -12,7 +12,7 @@ public class rotationAnchorAnimation : MonoBehaviour {
 		float speed = 6;
 		
 		void Start(){
-		_toparent = GetComponent<toParent>();
+		_toparent = GetComponent<BlockInformation>();
 			for (int i = 0; i < anchorObj.Count; i++){
 				anchorObjOPos.Add(anchorObj[i].position);
 				anchorObjOScale.Add(anchorObj[i].localScale);

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class objBalls : MonoBehaviour {
@@ -58,7 +58,7 @@ public class objBalls : MonoBehaviour {
 		}
 
 		if(center)
-		if(controller.GetComponent<toParent>().beTouched==2){
+		if(controller.GetComponent<BlockInformation>().beTouched==2){
 			changeScale(center.gameObject,new Vector3(0.3f,0.3f,0.3f),7);
 		}else{
 

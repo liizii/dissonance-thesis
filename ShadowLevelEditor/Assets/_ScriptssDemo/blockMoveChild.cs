@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class blockMoveChild : MonoBehaviour {
@@ -48,8 +48,8 @@ public class blockMoveChild : MonoBehaviour {
 //							PlayerInputController.platformVelZY=new Vector3(vel.x,vel.y*1.01f,vel.z);
 //						}
 //				}
-					if(growChildren[i].GetComponent<toParent>()){
-						growChildren[i].GetComponent<toParent>().myVel=vel;
+					if(growChildren[i].GetComponent<BlockInformation>()){
+						growChildren[i].GetComponent<BlockInformation>().myVel=vel;
 					}
 				growChildren[i].position+=vel;
 			}

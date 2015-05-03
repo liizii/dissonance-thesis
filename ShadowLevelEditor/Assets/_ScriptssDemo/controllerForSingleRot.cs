@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -7,15 +7,15 @@ public class controllerForSingleRot : MonoBehaviour {
 	public List<Vector3> objRotA= new List<Vector3>();
 	public List<Vector3> objRotB= new List<Vector3>();
 	float moveChild=0;
-	toParent _toparent;
+	BlockInformation _toparent;
 //	List<Vector3> nextAngles = new List<Vector3>();
 //	public int rotAxis = 0;//0:x, 1:y, 2:z
 	[SerializeField]
 	Transform handle;
 
 	void Start () {
-		if(GetComponent<toParent>())
-		_toparent = GetComponent<toParent>();
+		if(GetComponent<BlockInformation>())
+		_toparent = GetComponent<BlockInformation>();
 //		foreach(Transform r in forObjs){
 //			nextAngles.Add(r.transform.eulerAngles);
 //		}
@@ -37,14 +37,14 @@ public class controllerForSingleRot : MonoBehaviour {
 //				}
 //		}
 
-		if(Character3D._touch3dObj && Character3D._touch3dObj.gameObject == this.gameObject){
-			if(GetComponent<toParent>().rotOnce != 0 && moveChild >= 0 && moveChild <= forObjs.Count){
-				moveChild = moveChild + GetComponent<toParent>().rotOnce;
+		if(_toparent.beTouched == 10){
+			if(GetComponent<BlockInformation>().rotOnce != 0 && moveChild >= 0 && moveChild <= forObjs.Count){
+				moveChild = moveChild + GetComponent<BlockInformation>().rotOnce;
 				if(moveChild<0)
 					moveChild=0;
 				if(moveChild > forObjs.Count)
 					moveChild =  forObjs.Count;
-				GetComponent<toParent>().rotOnce=0;
+				GetComponent<BlockInformation>().rotOnce=0;
 			}
 			if(moveChild>=0)
 			for(int i = 0; i < forObjs.Count; i++){

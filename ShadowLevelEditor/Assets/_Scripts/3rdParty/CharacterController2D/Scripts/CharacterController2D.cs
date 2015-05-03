@@ -1,4 +1,4 @@
-﻿#define DEBUG_CC2D_RAYS
+#define DEBUG_CC2D_RAYS
 using UnityEngine;
 using System;
 using System.Collections.Generic;
@@ -490,16 +490,16 @@ public class CharacterController2D : MonoBehaviour
 			hitCollider=null;
 			if(this.name=="PlayerXY"){
 				foreach(GameObject g in _playerInputController.pXYhitObj)
-					if(g.GetComponent<toParent>())
-						if(g.GetComponent<toParent>().beTouched!=10)
-						g.GetComponent<toParent>().beTouched = 2;
+					if(g.GetComponent<BlockInformation>())
+						if(g.GetComponent<BlockInformation>().beTouched!=10)
+						g.GetComponent<BlockInformation>().beTouched = 2;
 				_playerInputController.pXYhitObj.Clear();
 			}
 			if(this.name=="PlayerZY"){
 				foreach(GameObject g in _playerInputController.pZYhitObj)
-					if(g.GetComponent<toParent>())
-						if(g.GetComponent<toParent>().beTouched!=10)
-						g.GetComponent<toParent>().beTouched = 2;
+					if(g.GetComponent<BlockInformation>())
+						if(g.GetComponent<BlockInformation>().beTouched!=10)
+						g.GetComponent<BlockInformation>().beTouched = 2;
 				_playerInputController.pZYhitObj.Clear();
 			}
 
@@ -511,16 +511,16 @@ public class CharacterController2D : MonoBehaviour
 					if(this.name=="PlayerXY"){
 						_playerInputController.pXYhitObj.Add(h.collider.GetComponent<ShadowRenderer>().parentObj);
 						foreach(GameObject g in _playerInputController.pXYhitObj)
-							if(g.GetComponent<toParent>())
-								if(g.GetComponent<toParent>().beTouched!=10)
-								g.GetComponent<toParent>().beTouched = 0;
+							if(g.GetComponent<BlockInformation>())
+								if(g.GetComponent<BlockInformation>().beTouched!=10)
+								g.GetComponent<BlockInformation>().beTouched = 0;
 					}
 					if(this.name=="PlayerZY"){
 						_playerInputController.pZYhitObj.Add(h.collider.GetComponent<ShadowRenderer>().parentObj);
 						foreach(GameObject g in _playerInputController.pZYhitObj)
-							if(g.GetComponent<toParent>())
-								if(g.GetComponent<toParent>().beTouched!=10)
-								g.GetComponent<toParent>().beTouched = 1;
+							if(g.GetComponent<BlockInformation>())
+								if(g.GetComponent<BlockInformation>().beTouched!=10)
+								g.GetComponent<BlockInformation>().beTouched = 1;
 					}
 				}
 			}

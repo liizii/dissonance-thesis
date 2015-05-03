@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class blockLoopMoveChild : MonoBehaviour {
@@ -23,7 +23,7 @@ public class blockLoopMoveChild : MonoBehaviour {
 	}
 	
 	void Update () {
-		if(controller.GetComponent<toParent>().rotOnce!=0){
+		if(controller.GetComponent<BlockInformation>().rotOnce!=0){
 			for (int i = 0; i <  growChildren.Length; i++) {
 					growChildren[i].position+= dir*new Vector3(growSpeed[i]*dirX, growSpeed[i]*dirY,growSpeed[i]*dirZ);
 					moveAmount+=dir*growSpeed[i];	
@@ -31,11 +31,11 @@ public class blockLoopMoveChild : MonoBehaviour {
 
 			if(dir>0 && moveAmount>limitUp){
 				dir=-1;
-				controller.GetComponent<toParent>().rotOnce=0;
+				controller.GetComponent<BlockInformation>().rotOnce=0;
 			}
 			if(dir<0 && moveAmount<limitDown){
 				dir=1;
-				controller.GetComponent<toParent>().rotOnce=0;
+				controller.GetComponent<BlockInformation>().rotOnce=0;
 			}
 			
 		}

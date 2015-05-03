@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -65,10 +65,10 @@ public class blockMoveToPos : MonoBehaviour {
 
 
 		cam.LookAt(camTarget);
-		if(controller.GetComponent<toParent>().rotOnce!=0 && !startMoving){
+		if(controller.GetComponent<BlockInformation>().rotOnce!=0 && !startMoving){
 			counter++;
 			//GetComponent<Light>().GetComponent<Light>().intensity+=controller.GetComponent<toParent>().rotOnce/100;
-			if(controller.GetComponent<toParent>().rotOnce==1){
+			if(controller.GetComponent<BlockInformation>().rotOnce==1){
 				amount++;
 			for (int i = 0; i <  moveObjects.Count; i++) {
 				if(Vector3.Distance(moveObjects[i].transform.position,targetPos[i].position)>0.2f){
@@ -81,7 +81,7 @@ public class blockMoveToPos : MonoBehaviour {
 				}
 			}
 			}
-			if(controller.GetComponent<toParent>().rotOnce==-1){
+			if(controller.GetComponent<BlockInformation>().rotOnce==-1){
 				if(amount>0)
 				amount--;
 			for (int i = 0; i <  moveObjects.Count; i++) {
@@ -93,7 +93,7 @@ public class blockMoveToPos : MonoBehaviour {
 			}
 			}
 			if(counter%20==0)
-				controller.GetComponent<toParent>().rotOnce=0;
+				controller.GetComponent<BlockInformation>().rotOnce=0;
 			
 		}
 	}

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -70,13 +70,13 @@ public class objRotBlock : MonoBehaviour {
 //				nextPos=objBottomOPos;
 //				nextDist=new Vector3(0,0,0);
 //			}
-			if(GetComponent<toParent>().beTouched==0){
+			if(GetComponent<BlockInformation>().beTouched==0){
 				//objMove(objXY,objXYOPos,objBtDist);
 				moveObj=objXY;
 				nextPos=objXYOPos;
 				nextDist=objBtDist;
 
-			}else if(GetComponent<toParent>().beTouched==1){
+			}else if(GetComponent<BlockInformation>().beTouched==1){
 				//objMove(objZY,objZYOPos,objBtDist);
 				moveObj=objZY;
 				nextPos=objZYOPos;

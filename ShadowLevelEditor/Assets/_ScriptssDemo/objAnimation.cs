@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -67,7 +67,7 @@ public class objAnimation : MonoBehaviour {
 
 
 		if(animatedObj)
-		if(GetComponent<toParent>().beTouched!=2){
+		if(GetComponent<BlockInformation>().beTouched!=2){
 			counterForRot--;
 			if(counterForRot<0)
 			for(int i=0;i<gearParts.Count;i++){

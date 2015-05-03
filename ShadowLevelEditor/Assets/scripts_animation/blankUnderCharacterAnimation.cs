@@ -1,15 +1,15 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class blankUnderCharacterAnimation : MonoBehaviour {
-	toParent _toparent;
+	BlockInformation _toparent;
 	toShadows _toshadows;
 	float speed = 6;
 	Color startColor;
 
 	void Start () {
-		if(GetComponent<toParent>())
-		_toparent = GetComponent<toParent>();
+		if(GetComponent<BlockInformation>())
+		_toparent = GetComponent<BlockInformation>();
 		startColor = GetComponent<Renderer>().material.color;
 	
 	}

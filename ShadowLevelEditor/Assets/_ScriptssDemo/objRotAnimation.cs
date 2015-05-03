@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -55,7 +55,7 @@ public class objRotAnimation : MonoBehaviour {
 			}
 		}
 
-		if(GetComponent<toParent>().beTouched!=2){
+		if(GetComponent<BlockInformation>().beTouched!=2){
 			bottom.transform.position=Vector3.Lerp(bottom.transform.position,bottomOPos+bottomDist,Time.deltaTime*speed);
 			for(int i=0;i<objPoles.Count;i++){
 				objPoles[i].transform.localScale=Vector3.Lerp(objPoles[i].transform.localScale,new Vector3(0.2f,0.1f,0.2f),Time.deltaTime*speed);

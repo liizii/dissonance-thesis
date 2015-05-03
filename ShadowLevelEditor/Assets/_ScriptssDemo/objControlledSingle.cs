@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -18,13 +18,13 @@ public class objControlledSingle : MonoBehaviour {
 
 	void Update () {
 		if(Character3D._touch3dObj && Character3D._touch3dObj.gameObject==controller){
-			if(controller.GetComponent<toParent>().rotOnce!=0 && moveChild>=0 && moveChild <=growChildren.Count){
-				moveChild=moveChild+controller.GetComponent<toParent>().rotOnce;
+			if(controller.GetComponent<BlockInformation>().rotOnce!=0 && moveChild>=0 && moveChild <=growChildren.Count){
+				moveChild=moveChild+controller.GetComponent<BlockInformation>().rotOnce;
 				if(moveChild<0)
 					moveChild=0;
 				if(moveChild > growChildren.Count)
 					moveChild =  growChildren.Count;
-				controller.GetComponent<toParent>().rotOnce=0;
+				controller.GetComponent<BlockInformation>().rotOnce=0;
 			}
 		}
 		if(moveChild>=0)

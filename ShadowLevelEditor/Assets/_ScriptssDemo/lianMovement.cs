@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -41,7 +41,7 @@ public class lianMovement : MonoBehaviour {
 			else{
 				anim[i].SetFloat("Speed", 0);
 			}
-			if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<toParent>() && Character3D._touch3dObj.GetComponent<toParent>().rotatable ){
+			if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<BlockInformation>() && Character3D._touch3dObj.GetComponent<BlockInformation>().CanRotate ){
 				if(Character3D._pRotDirection!=0){
 					anim[i].SetBool("rotating",true);
 				}else{

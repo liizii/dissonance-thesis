@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -56,10 +56,10 @@ public class titlePlatforms : MonoBehaviour {
 		
 		
 		cam.LookAt(camTarget);
-		if(controller.GetComponent<toParent>().rotOnce!=0 && !startMoving){
-			if(controller.GetComponent<toParent>().rotOnce==1){
+		if(controller.GetComponent<BlockInformation>().rotOnce!=0 && !startMoving){
+			if(controller.GetComponent<BlockInformation>().rotOnce==1){
 				nCurrentRotations++;
-				controller.GetComponent<toParent>().rotOnce=0;
+				controller.GetComponent<BlockInformation>().rotOnce=0;
 			}
 			//	controller.GetComponent<toParent>().rotOnce=0;	
 		}
@@ -87,7 +87,7 @@ public class titlePlatforms : MonoBehaviour {
 			startMoving=true;
 		
 		if(arrived && startMoving && rotationProgress==1){
-			controller.GetComponent<toParent>().rotatable=false;
+			// controller.GetComponent<toParent>().rotatable=false;
 			pXY.SetActive(false);
 			pZY.SetActive(false);
 			controller.transform.parent = transform;

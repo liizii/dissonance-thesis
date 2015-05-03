@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -21,7 +21,7 @@ public class tutorial3control : MonoBehaviour {
 
 		}
 
-		if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<toParent>().rotatable){
+		if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<BlockInformation>().CanRotate){
 			narrative[0].enabled=true;
 		}else{
 				narrative[0].enabled=false;
