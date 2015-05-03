@@ -42,7 +42,7 @@ public class lianMovement : MonoBehaviour {
 				anim[i].SetFloat("Speed", 0);
 			}
 			if(Character3D._touch3dObj && Character3D._touch3dObj.GetComponent<BlockInformation>() && Character3D._touch3dObj.GetComponent<BlockInformation>().CanRotate ){
-				if(Character3D._pRotDirection!=0){
+				if(Character3D.IsRotating){
 					anim[i].SetBool("rotating",true);
 				}else{
 					anim[i].SetBool("rotating",false);

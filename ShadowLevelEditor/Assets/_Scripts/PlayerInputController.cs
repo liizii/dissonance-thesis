@@ -137,8 +137,7 @@ public class PlayerInputController : MonoBehaviour {
 			if(isInputAllowed)
 				playerStatus=i;
 
-			if(Character3D._pRotDirection!=0)
-				isInputAllowed=false;
+			if(Character3D.IsRotating) { isInputAllowed = false; }
 
 			SimulatePlayer(i,_all2DPlayers[i], isInputAllowed);
 		}

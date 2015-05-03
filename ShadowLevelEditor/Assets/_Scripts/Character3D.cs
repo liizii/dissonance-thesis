@@ -4,7 +4,6 @@ using System.Collections;
 public class Character3D : MonoBehaviour {
 	public static Transform _hit3dObj;
 	public static Transform _touch3dObj;
-	public static float _pRotDirection=0;
 	[SerializeField]
 	private Transform _rotParent;
 	[SerializeField]
@@ -15,11 +14,15 @@ public class Character3D : MonoBehaviour {
 	[SerializeField]
 	private Light _lightExist;
 	[SerializeField]
-	private float _rotationSpeed;
+	private float _rotationDuration = 0.5f;
 
 	private Transform _oParent;
+	private Rotatable _activeRotator = null;
 	private float _fractionRotated = 0f;
-	private bool _isRotating = false;
+	private static bool _isRotating = false; // XXX
+	public static bool IsRotating {
+		get { return _isRotating; }
+	}
 	private Renderer[] _myMesh;
 	float _nextAngle=0;
 	Quaternion _nextRot;
@@ -126,56 +129,27 @@ public class Character3D : MonoBehaviour {
 		} else {
 			BlockInformation blockInfo = hitCollider.GetComponent<BlockInformation>();
 			if(hitCollider.transform.parent.name!="Planes" && blockInfo != null && blockInfo.CanRotate){
-				_pRotDirection=direction;
-				if(blockInfo.myParent.GetComponent<EditorBlock>()){
-					_oParent=blockInfo.myParent.GetComponent<EditorBlock>().oParentObj.transform;
-				}else{
-					_oParent=null;
-				}
-				blockInfo.rotOnce=direction;
-				blockInfo.myParent.parent=_rotParent;//!!!!!!how to find real parent?
-				_hit3dObj=hitCollider.transform;
-				_nextAngle=(_nextAngle+direction*90)%360;
-				_nextRot = Quaternion.Euler(_rotParent.eulerAngles.x, _nextAngle, _rotParent.eulerAngles.z);
-
-				_fractionRotated = 0f;
+				_activeRotator = blockInfo.MyRotatable;
+				_activeRotator.CharacterDriveRotation(direction, _rotParent.position, _rotationDuration);
 				_isRotating = true;
 			}
 		}
 	}
 
-	void DoRotation () {
-		if (_isRotating) {
-			_fractionRotated += Time.deltaTime * _rotationSpeed;
-			if (_fractionRotated >= 1f) {
-				_isRotating = false;
-				_fractionRotated = 1f;
-
-				// XXX (JULIAN): WAT???
-				if(_hit3dObj!=null){
-					if(_oParent){
-						_hit3dObj.GetComponent<BlockInformation>().myParent.parent=_oParent;
-					}else{
-						_hit3dObj.GetComponent<BlockInformation>().myParent.parent=null;
-					}
-				}//!!!!!!how to find real parent?
-				_pRotDirection=0;
-			}
-			_rotParent.rotation = Quaternion.Lerp(_rotParent.rotation,_nextRot,_fractionRotated);
-		} else if (_touch3dObj) {
-			_rotParent.position = new Vector3(_touch3dObj.transform.position.x,0,_touch3dObj.transform.position.z);
-		}
-	}
-
 	void Update(){
 		detectHitObject();
-		DoRotation();
+		if (_touch3dObj) {
+			_rotParent.position = new Vector3(_touch3dObj.transform.position.x,0,_touch3dObj.transform.position.z);
+		}
+		if (_activeRotator == null || !_activeRotator.IsRotating) {
+			_isRotating = false;
+		}
 	}
 
 	void LateUpdate () {
 		_targetPos=this.transform.position;
 
-		if(_pRotDirection==0){
+		if(!_isRotating){
 			//_transform.parent=GameObject.Find("Players").transform;
 			_transform.position = new Vector3(_playerxyTransform.position.x,
 		                                  YPosition,

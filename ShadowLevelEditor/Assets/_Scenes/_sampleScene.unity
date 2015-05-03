@@ -1963,9 +1963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 596005182}
+  _rotatable: {fileID: 0}
   beTouched: 0
-  rotatable: 0
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &461215075
@@ -2350,6 +2349,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 545093275}
   - 114: {fileID: 545093276}
+  - 114: {fileID: 545093277}
   m_Layer: 0
   m_Name: blank 1
   m_TagString: Untagged
@@ -2364,7 +2364,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 545093274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.78000021, y: -5, z: .689999998}
+  m_LocalPosition: {x: 2.8900001, y: -3.66000009, z: 7.11999989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2106893633}
@@ -2384,6 +2384,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oParentObj: {fileID: 0}
   _typeName: EditorCube
+--- !u!114 &545093277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545093274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11543ae4d3df415390e5db0022ecdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationAxis: 2
+  _canBeDrivenByCharacter: 0
+  _drives: []
 --- !u!1 &585378943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2827,6 @@ GameObject:
   - 65: {fileID: 708066556}
   - 114: {fileID: 708066555}
   - 114: {fileID: 708066561}
-  - 114: {fileID: 708066562}
   m_Layer: 0
   m_Name: block
   m_TagString: Untagged
@@ -2882,9 +2895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 788015421}
+  _rotatable: {fileID: 788015423}
   beTouched: 2
-  rotatable: 1
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &708066558
@@ -2945,24 +2957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef14c84b0379a4611bdb364aae9e62ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &708066562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 708066553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d301410c551f8459aa31817112bfd6c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forObjs:
-  - {fileID: 2106893633}
-  objRotA:
-  - {x: 0, y: 0, z: 0}
-  objRotB:
-  - {x: 0, y: 0, z: 90}
-  handle: {fileID: 0}
 --- !u!4 &711562617 stripped
 Transform:
   m_PrefabParentObject: {fileID: 462386, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
@@ -3190,6 +3184,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 788015421}
   - 114: {fileID: 788015422}
+  - 114: {fileID: 788015423}
   m_Layer: 0
   m_Name: gearControl
   m_TagString: Untagged
@@ -3227,6 +3222,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oParentObj: {fileID: 0}
   _typeName: EditorCube
+--- !u!114 &788015423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788015420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11543ae4d3df415390e5db0022ecdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationAxis: 1
+  _canBeDrivenByCharacter: 1
+  _drives:
+  - {fileID: 545093277}
 --- !u!1 &788477164
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,7 +3323,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 844278481}
   - 114: {fileID: 844278483}
-  - 114: {fileID: 844278482}
   m_Layer: 0
   m_Name: objBeingControl
   m_TagString: Untagged
@@ -3335,31 +3344,6 @@ Transform:
   - {fileID: 960449365}
   m_Father: {fileID: 531833854}
   m_RootOrder: 2
---- !u!114 &844278482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 844278480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb5a33720bb145d48cbb22e7249fcb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dirX: 0
-  dirY: 1
-  dirZ: 0
-  controller:
-  - {fileID: 0}
-  growChildren:
-  - {fileID: 973731619}
-  growSpeed:
-  - .0399999991
-  rotParent: {fileID: 0}
-  limitUp: 40
-  limitDown: 0
-  offset: .0500000007
-  linedots: []
 --- !u!114 &844278483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4015,9 +3999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 844278481}
+  _rotatable: {fileID: 0}
   beTouched: 2
-  rotatable: 0
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &973731622
@@ -4539,9 +4522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 868812542}
+  _rotatable: {fileID: 0}
   beTouched: 2
-  rotatable: 0
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &1116001817
@@ -5420,6 +5402,10 @@ Prefab:
       propertyPath: _playerInputController
       value: 
       objectReference: {fileID: 177172050}
+    - target: {fileID: 11411406, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
+      propertyPath: _rotationSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7435ffc0a9924915a561df64cf1f816, type: 2}
   m_IsPrefabParent: 0
@@ -5480,9 +5466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 1387063859}
+  _rotatable: {fileID: 0}
   beTouched: 2
-  rotatable: 1
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &1334474132
@@ -9134,7 +9119,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106893632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.28000021, y: .5, z: 3.92000008}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_Children:
   - {fileID: 1632773539}
@@ -9162,9 +9147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cef14c7e8d9943f4bf524f8e04cf8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myParent: {fileID: 545093275}
+  _rotatable: {fileID: 0}
   beTouched: 2
-  rotatable: 0
   myVel: {x: 0, y: 0, z: 0}
   rotOnce: 0
 --- !u!114 &2106893636
